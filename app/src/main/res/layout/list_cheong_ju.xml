@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="   청주"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/a9a1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/cheongju"
+            android:onClick="todetail"
+            android:text="강내연꽃마을"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/a9a2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/cheongju"
+            android:onClick="todetail"
+            android:text="오박사마을"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/a9a3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/cheongju"
+            android:onClick="todetail"
+            android:text="벌랏한지마을"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/a9a4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/cheongju"
+            android:onClick="todetail"
+            android:text="도로줌마을"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/a9a5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/cheongju"
+            android:onClick="todetail"
+            android:text="고두미마을"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/a9a6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/cheongju"
+            android:onClick="todetail"
+            android:text="사과마을"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/a9a7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/cheongju"
+            android:onClick="todetail"
+            android:text="말미장터마을"
+            android:textSize="24sp" />
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="   영동군"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/a4a1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/youngdong"
+            android:onClick="todetail"
+            android:text="금강모치마을"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/a4a2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/youngdong"
+            android:onClick="todetail"
+            android:text="비단강숲마을"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/a4a3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/youngdong"
+            android:onClick="todetail"
+            android:text="원촌마을"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/a4a4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/youngdong"
+            android:onClick="todetail"
+            android:text="시항골마을"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/a4a5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/youngdong"
+            android:onClick="todetail"
+            android:text="황금을따는마을"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/a4a6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/youngdong"
+            android:onClick="todetail"
+            android:text="주곡리마을"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/a4a7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/youngdong"
+            android:onClick="todetail"
+            android:text="금도끼은도끼마을"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/a4a8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/youngdong"
+            android:onClick="todetail"
+            android:text="매곡옥륵촌마을"
+            android:textSize="24sp" />
+
+    </LinearLayout>
+</LinearLayout>

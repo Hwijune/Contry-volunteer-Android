@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:padding="5dp"
+        android:orientation="vertical"
+        android:background="#99000000">
+
+        <ImageButton
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:id="@+id/mainimage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:background="#00000000"
+            />
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="6.3"
+            android:scrollbars="none"
+            >
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="7">
+
+                <ImageButton
+                    android:background="#00000000"
+                    android:onClick="imageClick1"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY"
+                    android:id="@+id/scrollimg1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"/>
+
+                <ImageButton
+                    android:background="#00000000"
+                    android:onClick="imageClick2"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY"
+                    android:id="@+id/scrollimg2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"/>
+
+                <ImageButton
+                    android:background="#00000000"
+                    android:onClick="imageClick3"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY"
+                    android:id="@+id/scrollimg3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"/>
+
+                <ImageButton
+                    android:background="#00000000"
+                    android:onClick="imageClick4"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY"
+                    android:id="@+id/scrollimg4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"  />
+
+                <ImageButton
+                    android:background="#00000000"
+                    android:onClick="imageClick5"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY"
+                    android:id="@+id/scrollimg5"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"/>
+
+                <ImageButton
+                    android:background="#00000000"
+                    android:onClick="imageClick6"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY"
+                    android:id="@+id/scrollimg6"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"/>
+
+                <ImageButton
+                    android:background="#00000000"
+                    android:onClick="imageClick7"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY"
+                    android:id="@+id/scrollimg7"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"/>
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="4">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:textColor="#ffffff"
+                    android:id="@+id/name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="영화체험마을"
+                    android:textSize="17pt"/>
+                <TextView
+                    android:textColor="#ffffff"
+                    android:id="@+id/address"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="충청북도 대소원면 123"
+                    android:textSize="10pt"/>
+                <TextView
+                    android:textColor="#ffffff"
+                    android:id="@+id/info"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="9pt"/>
+                <TextView
+                    android:textColor="#ffffff"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="체험목록 및 시설"
+                    android:textSize="10pt"/>
+                <TextView
+                    android:textColor="#ffffff"
+                    android:id="@+id/info2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="주요체험 | 꽃차만들기, 딸기따기(11월~4월)"
+                    android:textSize="9pt"/>
+                <TextView
+                    android:textColor="#ffffff"
+                    android:id="@+id/info3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="먹을거리 | 산채비빔밥, 올개이국, 버섯전골"
+                    android:textSize="9pt"/>
+            </LinearLayout>
+        </ScrollView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="6.5"
+            android:orientation="horizontal">
+
+            <TextView
+                android:textColor="#ffffff"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="대표자"
+                android:textSize="9pt"
+                android:layout_weight="6"/>
+            <TextView
+                android:textColor="#ffffff"
+                android:id="@+id/leader"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="홍길동"
+                android:textSize="10pt"
+                android:layout_weight="6"
+                />
+            <TextView
+                android:textColor="#ffffff"
+                android:id="@+id/leaderphone"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="010-1234-5678"
+                android:textSize="10pt"
+                android:layout_weight="4.5"/>
+
+            <Button
+                android:id="@+id/phonecall"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/call"
+                android:onClick="call"
+                android:layout_weight="6"/>
+
+            <Button
+                android:id="@+id/reservation"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="6"
+                android:background="@drawable/message_orange"
+                android:onClick="reslay" />
+            <Button
+                android:id="@+id/homepage"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/homepage"
+                android:onClick="homepage"
+                android:layout_weight="6"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

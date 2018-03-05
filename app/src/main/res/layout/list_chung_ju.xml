@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="   충주"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/a8a1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/chungju"
+            android:onClick="todetail"
+            android:text="상대촌마을"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/a8a2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/chungju"
+            android:onClick="todetail"
+            android:text="탄방마을"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/a8a3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/chungju"
+            android:onClick="todetail"
+            android:text="인다락마을"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/a8a4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/chungju"
+            android:onClick="todetail"
+            android:text="하곡마을"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/a8a5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/chungju"
+            android:onClick="todetail"
+            android:text="재오개산촌마을"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/a8a6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/chungju"
+            android:onClick="todetail"
+            android:text="내포마을"
+            android:textSize="24sp" />
+
+    </LinearLayout>
+</LinearLayout>

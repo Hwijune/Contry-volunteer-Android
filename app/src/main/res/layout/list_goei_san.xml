@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="   괴산군"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/a5a1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/goeisan"
+            android:onClick="todetail"
+            android:text="둔율체험휴양마을"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/a5a2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/goeisan"
+            android:onClick="todetail"
+            android:text="백마권역체험휴양마을"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/a5a3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/goeisan"
+            android:onClick="todetail"
+            android:text="비학봉체험휴향마을"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/a5a4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/goeisan"
+            android:onClick="todetail"
+            android:text="사오랑체험휴향마을"
+            android:textSize="24sp" />
+
+    </LinearLayout>
+</LinearLayout>

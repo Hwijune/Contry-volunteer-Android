@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="white">#FFffff</color>
+    <color name="chungju">#86E57F</color>
+    <color name="cheongju">#5CD1E5</color>
+    <color name="boun">#FFB2F5</color>
+    <color name="danyang">#FFCD12</color>
+    <color name="goeisan">#FFA7A7</color>
+    <color name="okchun">#F0CA61</color>
+    <color name="youngdong">#CACACA</color>
+    <color name="jinchun">#7EFFFF</color>
+    <color name="jungpyuong">#D1B2FF</color>
+    <color name="umsung">#ABF200</color>
+
+</resources>

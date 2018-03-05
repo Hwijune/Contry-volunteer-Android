@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="   진천군"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/a7a1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/jinchun"
+            android:onClick="todetail"
+            android:text="명심체험마을"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/a7a2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/jinchun"
+            android:onClick="todetail"
+            android:text="보련마을"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/a7a3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/jinchun"
+            android:onClick="todetail"
+            android:text="물안뜰마을"
+            android:textSize="24sp" />
+
+    </LinearLayout>
+</LinearLayout>

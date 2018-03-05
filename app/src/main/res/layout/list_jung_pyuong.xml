@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="   증평군"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/a2a1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/jungpyuong"
+            android:onClick="todetail"
+            android:text="삼기조아유농촌체험휴양마을"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/a2a2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/jungpyuong"
+            android:onClick="todetail"
+            android:text="상그린농촌체험휴양마을"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/a2a3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/jungpyuong"
+            android:onClick="todetail"
+            android:text="장이익어가는마을"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/a2a4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/jungpyuong"
+            android:onClick="todetail"
+            android:text="정안농촌체험휴양마을"
+            android:textSize="24sp" />
+
+    </LinearLayout>
+</LinearLayout>
